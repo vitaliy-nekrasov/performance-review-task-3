@@ -34,6 +34,7 @@ interface CurrentWeather {
   wind_direction_10m: number;
   precipitation: number;
   rain: number;
+  weather_code: number;
   showers: number;
   snowfall: number;
 }
