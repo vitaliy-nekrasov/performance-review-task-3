@@ -4,6 +4,12 @@ import WeatherCard from "@/components/WeatherCard";
 
 // export const dynamic = "force-dynamic";
 
+export const metadata = {
+  title: "The Weather in Popular Cities | WeatherApp",
+  description: "The Weather in Popular Cities",
+  keywords: "weather, search, city, weather app",
+};
+
 const cities = [
   { id: "kyiv", name: "Kyiv", lat: 50.4547, lon: 30.5238 },
   { id: "new-york", name: "New-York", lat: 40.7128, lon: -74.006 },

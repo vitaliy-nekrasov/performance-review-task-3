@@ -9,8 +9,8 @@ const rubikSans = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Get Current Weather",
-  description: "Get Current Weather",
+  title: "Get Current Weather | WeatherApp",
+  description: "Get Current Weather in Your City",
   keywords: ['weather', 'next.js'],
 };
 

@@ -3,6 +3,12 @@ import { weatherCodes } from "@/app/constants";
 import { getCityCoordinates } from "@/actions/getCityCoordinates";
 import WeatherCard from "@/components/WeatherCard";
 
+export const metadata = {
+  title: "City weather page | WeatherApp",
+  description: "App for a city to get its weather",
+  keywords: "weather, search, city, weather app",
+};
+
 interface CityWeatherPageProps {
   params: Promise<{
     city: string;
@@ -61,6 +67,7 @@ export default async function CityWeatherPage({
   }
 }
 
+// if we know the cities in advance, we can use static generation
 export function generateStaticParams() {
   return [{ city: "monaco" }, { city: "london" }];
 }
