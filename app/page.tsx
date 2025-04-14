@@ -15,6 +15,12 @@ export default async function Home() {
       >
         Search for a City
       </Link>
+      <Link
+        href="/intercepting"
+        className="text-2xl font-medium hover:text-[#e85a4f] transition-all"
+      >
+        Check intercepting route
+      </Link>
     </div>
   );
 }
